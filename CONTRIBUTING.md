@@ -8,7 +8,7 @@ By following this guide, we can ensure that
 the repository remains fast and accessible for everyone,
 and that we are making the most efficient use of our storage space.
 
-## Before committing
+## Images
 
 Before committing images to the repository, follow these steps:
 
@@ -16,7 +16,9 @@ Before committing images to the repository, follow these steps:
 - Verify that the compressed images are of acceptable quality.
 - Commit the compressed images to the repository.
 
-## Images
+If you would like to know more information about your image, run:
+
+    identify -verbose someimagefile
 
 ### Compression
 
@@ -32,8 +34,13 @@ Here are few examples:
 ## Optimal format
 
 Optimal file format for images depends on the type of image.
-In general JPEG (e.g. JPEG 2000) format is best for photographs
+In general JPEG format is best for photographs
 and PNG format is best for graphics and logos with transparent backgrounds.
+
+To convert from one format to another, use ImageMagick's `convert` command:
+
+    convert file.png file.jpg
+    convert file.jpg file.jp2
 
 ## Size
 
