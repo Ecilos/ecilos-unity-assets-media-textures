@@ -11,7 +11,9 @@
 *.anim merge=unityyamlmerge eol=lf
 *.asset merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
+*.lighting merge=unityyamlmerge eol=lf
 *.mat merge=unityyamlmerge eol=lf
+*.mesh merge=unityyamlmerge eol=lf
 *.meta merge=unityyamlmerge eol=lf
 *.physicMaterial merge=unityyamlmerge eol=lf
 *.physicsMaterial2D merge=unityyamlmerge eol=lf
@@ -32,6 +34,7 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
+*.texture2D filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
 *.tif filter=lfs diff=lfs merge=lfs -text
 
@@ -39,6 +42,7 @@
 *.FBX filter=lfs diff=lfs merge=lfs -text
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
 *.obj filter=lfs diff=lfs merge=lfs -text
 
 # Video
